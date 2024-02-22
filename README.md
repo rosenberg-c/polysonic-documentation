@@ -1,8 +1,6 @@
 # Prisma
 
-<!-- ## Prisma: Expand Your Monophonic Synthesizers -->
-
-## Transform Your MIDI Keyboard into a Multi-Synth Orchestra
+## Transform Your Synthesizers into Polyphonic Multi-Synth Orchestra
 
 Prisma is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers. By intelligently processing MIDI input, Prisma enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
 
@@ -11,13 +9,13 @@ Prisma is a cutting-edge program designed to bridge the gap between a single MID
 ### Key Features at a Glance
 
 * Dynamic Splitting: Distributes notes from a chord across multiple channels, seamlessly integrating with your synths.
-  
+
 * Solo and Clone Modes: Offers the flexibility to direct all notes to a single channel or duplicate incoming notes across selected channels.
 
 * Channel Remap: Provides total control over MIDI signal routing, enhancing your setup's versatility.
 
 * Arpeggiator: Adds rhythm and texture by converting chords into sequenced notes, following user-defined patterns and tempo.
-  
+
 ## Getting Started
 
 ### Prisma Interface
@@ -54,12 +52,12 @@ Useful setup, here we are listening on channel-16 from Prisma and also sending t
 
 ![Img](./images/protools-config-midi.png)
 
-For sync to work we need to activate midi MTC, in pro-tools this can be done from the transport
+For sync to work we need to activate MIDI MTC, in Pro Tools this can be done from the transport
 
 ![Img](./images/protools-enable-mtc.png)
 ![Img](./images/protools-transport.png)
 
-and also enable the midi clock
+and also enable the MIDI clock
 
 ![Img](./images/protools-clock.png)
 ![Img](./images/protools-clock-2.png)
@@ -70,7 +68,7 @@ Prisma is in active development, with certain features like the arpeggiator mode
 
 Known issues:
 
-* Arpeggiator will only sync start and stop from the DAW, midi clock sync is being worked on
+* Arpeggiator will only sync start and stop from the DAW, MIDI clock sync is being worked on
 
 ## Requirements
 
@@ -83,6 +81,6 @@ For any questions, support, or feedback, please reach out through [maintainer's 
 
 Transform your musical setup with Prisma and unlock new realms of creativity by seamlessly integrating monophonic synthesizers into your compositions.
 
-## AppIcon
+## App Icon
 
 ![Img](./images/app-icon.png)
