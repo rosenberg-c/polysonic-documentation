@@ -2,7 +2,9 @@
 
 ## Transform Your Synthesizers into Polyphonic Multi-Synth Orchestra
 
-Prisma is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers. By intelligently processing MIDI input, Prisma enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
+Prisma - synthesizer orchestration
+
+Prisma is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers ( Plugins and hardware ). By intelligently processing MIDI input, Prisma enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
 
 ![Img](./images/001.png)
 
@@ -69,6 +71,7 @@ Prisma is in active development, with certain features like the arpeggiator mode
 Known issues:
 
 * Arpeggiator will only sync start and stop from the DAW, MIDI clock sync is being worked on
+* Direct selection of otput device is not possible at the moment. Workaround is to make the selection on your DAW
 
 ## Requirements
 
