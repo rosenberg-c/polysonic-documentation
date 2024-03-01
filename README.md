@@ -1,12 +1,12 @@
-# Pyramidi
+# Polysonic
 
 ## Transform Your Synthesizers into Polyphonic Multi-Synth Orchestra
 
-Pyramidi - synthesizer orchestration
+Polysonic - synthesizer orchestration
 
 The problem: Previously, using multiple monophonic synthesisers, you could not play them simultainisly, now you can!
 
-Pyramidi is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers ( Plugins and hardware ). By intelligently processing MIDI input, Pyramidi enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
+Polysonic is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers ( Plugins and hardware ). By intelligently processing MIDI input, Polysonic enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
 
 ![Img](./images/001.png)
 
@@ -22,9 +22,9 @@ Pyramidi is a cutting-edge program designed to bridge the gap between a single M
 
 ## Getting Started
 
-### Pyramidi Interface
+### Polysonic Interface
 
-Pyramidi invites you to select your hardware input device and configure it to your liking, despite the current limitation of not directly selecting an output device, a workaround involving your DAW is suggested until future updates address this.
+Polysonic invites you to select your hardware input device and configure it to your liking, despite the current limitation of not directly selecting an output device, a workaround involving your DAW is suggested until future updates address this.
 
 ## Setup and Configuration
 
@@ -34,7 +34,7 @@ After choosing your input device, configure the device to send on channel 16. Th
 
 ### Controls
 
-* FloatWindow: Ensures Pyramidi remains accessible by staying on top.
+* FloatWindow: Ensures Polysonic remains accessible by staying on top.
 * Latch: Sustains notes indefinitely for a drone-like effect.
 * Panik: Instantly stops all notes, clearing the current MIDI state.
 
@@ -44,15 +44,15 @@ Setup Example
 
     Connect your MIDI device.
     Choose your mode: split, solo, clone, remap, or arp, and tweak the settings to your preference.
-    Play and explore the new dimensions Pyramidi adds to your musical expression.
+    Play and explore the new dimensions Polysonic adds to your musical expression.
 
 ### Configuration
 
-Enable Pyramidi virtual device
+Enable Polysonic virtual device
 
 ![Img](./images/protools-enable-midi-device.png)
 
-Useful setup, here we are listening on channel-16 from Pyramidi and also sending to Pyramidi on channel-16
+Useful setup, here we are listening on channel-16 from Polysonic and also sending to Polysonic on channel-16
 
 ![Img](./images/protools-config-midi.png)
 
@@ -68,7 +68,7 @@ and also enable the MIDI clock
 
 ### Limitations and Considerations
 
-Pyramidi is in active development, with certain features like the arpeggiator mode still being refined. Users are encouraged to experiment with these tools, keeping in mind the evolving nature of the software.
+Polysonic is in active development, with certain features like the arpeggiator mode still being refined. Users are encouraged to experiment with these tools, keeping in mind the evolving nature of the software.
 
 Known issues:
 
@@ -84,7 +84,7 @@ Known issues:
 
 For any questions, support, or feedback, please reach out through [maintainer's email or project's issue tracker].
 
-Transform your musical setup with Pyramidi and unlock new realms of creativity by seamlessly integrating monophonic synthesizers into your compositions.
+Transform your musical setup with Polysonic and unlock new realms of creativity by seamlessly integrating monophonic synthesizers into your compositions.
 
 ## App Icon
 
