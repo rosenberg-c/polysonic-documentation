@@ -8,7 +8,7 @@ The problem: Previously, using multiple monophonic synthesisers, you could not p
 
 Polysonic is a cutting-edge program designed to bridge the gap between a single MIDI keyboard and the vast potential of multiple monophonic synthesizers ( Plugins and hardware ). By intelligently processing MIDI input, Polysonic enables musicians to play across several synths as if they were a unified, polyphonic instrument. This tool listens to MIDI input on channel 16 and dynamically splits incoming chords across various channels, allowing for intricate compositions using monophonic synthesizers.
 
-![Img](./images/001.png)
+![Img](./images/screenshot.png)
 
 ### Key Features at a Glance
 
