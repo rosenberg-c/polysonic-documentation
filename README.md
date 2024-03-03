@@ -73,7 +73,7 @@ Polysonic is in active development, with certain features like the arpeggiator m
 Known issues:
 
 * Arpeggiator will only sync start and stop from the DAW, MIDI clock sync is being worked on
-* Direct selection of otput device is not possible at the moment. Workaround is to make the selection on your DAW
+* Direct selection of output device is not possible at the moment. Workaround is to make the selection on your DAW
 
 ## Requirements
 
