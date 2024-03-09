@@ -52,7 +52,7 @@ Enable Polysonic virtual device
 
 ![Img](./images/protools-enable-midi-device.png)
 
-Useful setup, here we are listening on channel-16 from Polysonic and also sending to Polysonic on channel-16
+Useful setup, here we are listening on channels from Polysonic.
 
 ![Img](./images/protools-config-midi.png)
 
